@@ -1,0 +1,39 @@
+@import "~antd/dist/antd.css";
+.contact_wrapper {
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #dcdee2;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.details {
+  margin-left: 100px;
+  height: 50%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-top: -2%;
+
+  line-height: 1.6;
+}
+.details p {
+  color: black;
+  font-weight: bold;
+}
+.initials {
+  display: "inline";
+  float: left;
+  border: 4px solid rgb(185, 158, 158);
+  margin-top: -1.2%;
+  color: white;
+  background: lightpink;
+  border-radius: 50%;
+  width: 55px;
+  text-align: center;
+}
+.number {
+  float: right;
+  margin-right: 6px;
+  height: 100%;
+  margin-top: -2%;
+}
